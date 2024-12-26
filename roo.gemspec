@@ -27,6 +27,7 @@ Gem::Specification.new do |spec|
     spec.add_dependency 'base64', '~> 0.2'
     spec.add_dependency 'csv', '~> 3'
   end
+  spec.add_dependency 'logger', '~> 1'
   spec.add_dependency 'nokogiri', '~> 1'
   spec.add_dependency 'rubyzip', '>= 1.3.0', '< 3.0.0'
 
