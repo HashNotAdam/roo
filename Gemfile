@@ -20,5 +20,6 @@ group :local_development do
   gem 'guard-bundler', require: false
   gem 'guard-rubocop', require: false
   gem "rb-readline"
+  gem 'rubocop-performance', require: false
   gem 'pry'
 end
